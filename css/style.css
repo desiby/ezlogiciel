@@ -29,13 +29,7 @@ p {
     width: 100%;
   }
 
-  img {
-    opacity: 0.2;
-  }
-
-  /* .header col s12 light {
-    margin-top: 25%
-  } */
+  
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
