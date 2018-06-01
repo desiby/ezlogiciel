@@ -29,8 +29,8 @@ p {
     width: 100%;
   }
 
-  #babi {
-    opacity: 0.1
+  img {
+    opacity: 0.2;
   }
 
   /* .header col s12 light {
