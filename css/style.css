@@ -54,9 +54,9 @@ p {
   font-size: inherit;
 }
 
-/* #contactctn {
-  margin-top: 0%
-} */
+ #contactctn {
+  margin-top: 2%
+} 
 
 footer.page-footer {
   margin: 0;
