@@ -11,7 +11,7 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav id="#acceuil" class="white" role="navigation">
+  <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Ezlogiciel
       </a>
@@ -83,54 +83,51 @@
   </div>
 
   
-  <div class="container">  
-      <div class="section">
-       Notre Processus de travail
-        <!--   Icon Section   -->
-        <div id="services" class="row">
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text"><i class="large material-icons">computer</i></h2>
-              <h5 class="center">Soummettez</h5>
-  
-              <p class="light">Nous développons des logiciels de gestion pour les PME/PMI ciblants tout les secteurs d'activités et utilisant les dernières technologies</p>
-            </div>
+<div class="container">
+          <div class="row">
+              <h2 id="contact" class="cols12">Contactez-nous</h1>
+              <form class="col s12" action="https://formspree.io/becracra@gmail.com"
+                        method="POST">
+                      <div class="row">
+                            <div class="input-field col s6">
+                              <input id="name" name="name" type="text" class="validate">
+                              <label for="name">Votre Nom</label>
+                            </div>
+                            <div class="input-field col s6">
+                              <input id="email" name="email" type="email" class="validate">
+                              <label for="email">Votre Email</label>
+                              <span class="helper-text" data-error="e-mail invalide!" data-success="right"></span>
+                            </div>
+                        </div>
+                        <div class=row>
+                            <div class="input-field col s12">
+                                <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                                <label for="message">Votre message</label>
+                            </div>
+                        </div>
+                        <div class="row">   
+                            <div class="input-field col s12 offset-s4">
+                               <input class="btn waves-effect waves-light" type="submit" value="Envoyer">
+                            </div>
+                        </div>
+                </form>
           </div>
-  
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text"><i class="large material-icons">phone_iphone</i></h2>
-              <h5 class="center">Développemment de site internet reactif et application mobile</h5>
-  
-              <p class="light">Nous utilisons les dernières technologies du web pour créer l'application mobile ou site internet de votre entreprise qui s'adapte facilement au télephone mobile, améliorant ainsi l'expérience de l'utilisateur<br/></p>
-            </div>
-          </div>
-  
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text"><i class="large material-icons">cloud_queue</i></h2>
-              <h5 class="center">Informatique en nuage (cloud computing)</h5>
-  
-              <p class="light">Avec l'informatique en nuage, le stockage et l'accès des données de l'entreprise devient plus facile<br/>donnée accedée a partir de n'importe quel endroit du monde</p>
-            </div>
-          </div>
+</div>
+      
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col s8">
+          <p>&copy; Ezlogiciel, tout droits réserves</p>
         </div>
-  
+        <div class="col s4">
+            <a class="waves-effect waves-light btn-large" href="#accueil">Accueil</a>
+        </div>
       </div>
     </div>
+</footer>
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col s8">
-            <p>&copy; Ezlogiciel, tout droits réserves</p>
-          </div>
-          <div class="col s4">
-              <a class="waves-effect waves-light btn-large" href="#accueil">Accueil</a>
-          </div>
-        </div>
-      </div>
-    </footer>
+
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
