@@ -58,6 +58,10 @@ p {
   margin-top: 50%
 } 
 
+footer {
+  margin-top: 25%
+}
+
 footer.page-footer {
   margin: 0;
 }
